@@ -1,0 +1,11 @@
+stages :
+  - build
+
+build :
+  stage : build
+  tags : 
+    - value # 待确认后修改
+  script :
+    - go build -o flowcsr main.go # 待确认后修改
+  only :
+    - master
