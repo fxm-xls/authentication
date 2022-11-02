@@ -1,16 +1,16 @@
 bigrule:
   etcd-service:
-    host: 172.16.0.164
+    host: 
     port: 2379
   service-manager:
     # 启动服务配置
     application:
       model: debug
-      host: 172.31.2.105
+      host: 
       port: 8081
     # mysql 配置模块
     dbmysql:
-      addr: root:123456@tcp(172.16.0.163:3306)/flowcsr_test?charset=utf8&parseTime=True&loc=Local
+      addr: :@tcp(:3306)/?charset=utf8&parseTime=True&loc=Local
       loglevel: warn
     # 系统日志配置模块
     logger:
@@ -21,11 +21,11 @@ bigrule:
     # 启动服务配置
     application:
       model: debug
-      host: 172.31.1.195
+      host: 
       port: 8082
     # mysql 配置模块
     dbmysql:
-      addr: root:123456@tcp(172.16.0.163:3306)/flowcsr_test?charset=utf8&parseTime=True&loc=Local
+      addr: 
       loglevel: debug
     # 系统日志配置模块
     logger:
@@ -37,22 +37,20 @@ bigrule:
       mysqlTime: 86400
     # 静态路由
     web-static:
-      path: C:\Users\Administrator\Desktop\csr-静态文件\flowauthweb
+      path: C:
     # 提示信息路径
     response-message:
-      path: D:\07git\flowcsr-auth\config\response-message.json
+      path: D:
     #经分系统url
     jf:
-      userUrl: http://10.32.40.78:30011/singlePoint/getUserInfo.action
+      userUrl: http://
       checkUrl: http://12
-      csrUrl: 172.16.128.57:8081
+      csrUrl: 
       roleId: 2
       deptId: 1
       ips: [
-          "172.31.2.105", "10.32.40.78", "10.32.40.85", "10.32.40.18", "10.32.40.23", "10.32.40.29", "10.32.40.38",
-          "10.32.40.45", "10.32.40.52", "10.32.40.57", "10.32.40.68", "10.32.40.69", "10.32.40.78", "10.32.40.85",
-          "10.32.40.94", "10.32.40.99", "10.32.40.107", "10.32.40.124",
+
       ]
     # prometheus 统计接口列表
     prometheus:
-      url: [ "/v2/users/login", "/v2/permission/interfaces/check", "/v1/users/data/update" ]
+      url: [  ]
