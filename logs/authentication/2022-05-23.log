@@ -1,0 +1,10 @@
+2022-05-26T15:59:39.756+0800	info	authentication/cmd.go:61	starting api server
+2022-05-26T15:59:39.869+0800	fatal	authentication/cmd.go:93	listen: listen tcp 172.31.1.195:8082: bind: The requested address is not valid in its context.
+2022-05-26T16:00:18.276+0800	info	authentication/cmd.go:61	starting api server
+2022-05-26T16:11:17.995+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-26T16:11:21.906+0800	info	authentication/cmd.go:61	starting api server
+2022-05-26T16:28:41.793+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-26T16:28:44.484+0800	info	authentication/cmd.go:61	starting api server
+2022-05-26T16:29:03.088+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-26T16:29:07.321+0800	info	authentication/cmd.go:61	starting api server
+2022-05-26T16:44:02.696+0800	info	authentication/cmd.go:111	Server exiting

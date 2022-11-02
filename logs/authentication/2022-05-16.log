@@ -1,0 +1,179 @@
+2022-05-18T17:44:43.138+0800	error	config/response-message.go:16	open D:\07git\bigrule-auth\bigrule\config\response-message.json: The system cannot find the path specified.
+2022-05-18T17:44:43.149+0800	error	config/response-message.go:23	invalid argument
+2022-05-18T17:44:43.149+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T17:44:43.186+0800	fatal	authentication/cmd.go:93	listen: listen tcp 172.31.2.105:8082: bind: The requested address is not valid in its context.
+2022-05-18T17:46:08.435+0800	error	config/response-message.go:16	open D:\07git\bigrule-auth\bigrule\config\response-message.json: The system cannot find the path specified.
+2022-05-18T17:46:08.488+0800	error	config/response-message.go:23	invalid argument
+2022-05-18T17:46:08.488+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T18:23:36.216+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T18:23:44.747+0800	error	config/response-message.go:16	open D:\07git\bigrule-auth\bigrule\config\response-message.json: The system cannot find the path specified.
+2022-05-18T18:23:44.757+0800	error	config/response-message.go:23	invalid argument
+2022-05-18T18:23:44.757+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T18:28:40.965+0800	info	users/login.go:29	用户登陆 user: name root, password root
+2022-05-18T18:31:10.238+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T18:31:10.243+0800	error	users/user_query.go:104	参数异常
+2022-05-18T18:31:35.551+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T18:40:41.836+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T18:40:41.846+0800	error	users/user_add.go:106	角色限制用户数超出
+2022-05-18T18:43:00.917+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T18:43:00.928+0800	error	users/user_add.go:115	查询部门数据为空
+2022-05-18T18:51:20.279+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T18:51:28.473+0800	error	config/response-message.go:16	open D:\07git\bigrule-auth\bigrule\config\response-message.json: The system cannot find the path specified.
+2022-05-18T18:51:28.482+0800	error	config/response-message.go:23	invalid argument
+2022-05-18T18:51:28.482+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T18:51:32.068+0800	info	users/user_query.go:43	map[]
+2022-05-18T18:51:32.069+0800	info	users/user_query.go:48	用户查询 user: id 1, name root
+2022-05-18T18:53:05.118+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T18:53:26.827+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T18:53:32.577+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T18:53:37.392+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T18:53:37.414+0800	error	users/user_add.go:115	查询部门数据为空
+2022-05-18T18:54:52.150+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T18:54:52.170+0800	error	users/user_add.go:196	添加用户失败-添加审批失败
+2022-05-18T18:59:13.324+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T18:59:22.220+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:00:26.597+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T19:00:45.374+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T19:01:27.490+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:02:37.167+0800	info	users/user_update.go:36	用户修改 user: id 1, name root
+2022-05-18T19:02:37.171+0800	error	users/user_update.go:115	角色限制用户数超出
+2022-05-18T19:02:43.387+0800	error	jwt/jwt.go:173	token 失效
+2022-05-18T19:02:47.256+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:02:47.260+0800	info	permission/interface_check.go:74	/authentication-service/v2/users/token/query 不校验
+2022-05-18T19:02:50.014+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:02:50.060+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:02:53.366+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:02:56.924+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:02:56.927+0800	info	permission/interface_check.go:74	/authentication-service/v2/users/token/query 不校验
+2022-05-18T19:02:57.187+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:02:57.206+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:03:09.175+0800	info	users/user_update.go:36	用户修改 user: id 1, name root
+2022-05-18T19:03:09.180+0800	error	users/user_update.go:130	1研发部所选部门已有其他管理员
+2022-05-18T19:04:25.838+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T19:04:33.467+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:04:43.983+0800	info	users/user_update.go:36	用户修改 user: id 1, name root
+2022-05-18T19:04:47.771+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T19:04:56.736+0800	info	users/user_update.go:36	用户修改 user: id 1, name root
+2022-05-18T19:05:00.106+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T19:13:22.206+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T19:13:31.423+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:13:42.599+0800	info	users/user_update.go:36	用户修改 user: id 1, name root
+2022-05-18T19:13:56.976+0800	info	users/user_delete.go:24	删除用户 user: id 1, name root
+2022-05-18T19:13:56.980+0800	error	model/model.go:26	权限不足
+2022-05-18T19:13:56.982+0800	error	model/model.go:69	权限不足
+2022-05-18T19:14:42.648+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:14:42.655+0800	info	permission/interface_check.go:74	/authentication-service/v2/users/token/query 不校验
+2022-05-18T19:14:45.960+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:14:45.977+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:14:45.998+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:14:46.035+0800	info	auth-v1-v2/manager_query.go:31	维护用户名称查询 user: id 51, name test
+2022-05-18T19:14:46.038+0800	info	data/data_query_user.go:38	数据查询_用户 user: id 51, name test
+2022-05-18T19:14:46.226+0800	info	permission/data_get.go:29	数据查询 user: id 51, name test
+2022-05-18T19:14:55.370+0800	info	permission/interface_check.go:32	用户权限验证 user: id 51, name test
+2022-05-18T19:18:03.814+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T19:18:08.556+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:18:11.326+0800	info	users/user_delete.go:24	删除用户 user: id 1, name root
+2022-05-18T19:18:11.378+0800	error	model/model.go:26	权限不足
+2022-05-18T19:18:11.382+0800	error	model/model.go:69	权限不足
+2022-05-18T19:19:47.309+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T19:20:00.061+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:34:39.005+0800	info	users/user_delete.go:24	删除用户 user: id 1, name root
+2022-05-18T19:34:39.023+0800	error	model/model.go:26	权限不足
+2022-05-18T19:34:39.025+0800	error	model/model.go:69	权限不足
+2022-05-18T19:35:08.776+0800	info	users/user_add.go:42	用户新增 user: id 1, name root
+2022-05-18T19:35:13.682+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T19:38:18.009+0800	info	users/login.go:29	用户登陆 user: name fxm-test, password fxm-test
+2022-05-18T19:38:47.112+0800	info	users/user_query.go:47	用户查询 user: id 54, name fxm-test
+2022-05-18T19:38:47.117+0800	error	model/model.go:26	权限不足
+2022-05-18T19:39:19.352+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-18T19:40:20.372+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-18T19:40:28.715+0800	info	authentication/cmd.go:61	starting api server
+2022-05-18T19:40:30.686+0800	info	users/user_delete.go:24	删除用户 user: id 1, name root
+2022-05-18T19:40:30.689+0800	error	users/user_delete.go:54	用户不存在
+2022-05-18T19:40:41.170+0800	info	users/user_delete.go:24	删除用户 user: id 1, name root
+2022-05-18T19:40:41.183+0800	error	model/model.go:26	权限不足
+2022-05-18T19:40:41.185+0800	error	users/user_delete.go:64	账户有所管部门
+2022-05-18T19:41:01.722+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T10:17:05.554+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T10:17:43.978+0800	info	users/user_delete.go:24	删除用户 user: id 54, name fxm-test
+2022-05-19T10:17:43.987+0800	error	model/model.go:26	权限不足
+2022-05-19T10:17:43.989+0800	error	users/user_delete.go:47	自杀失败
+2022-05-19T10:20:19.983+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T10:20:19.990+0800	error	model/model.go:26	权限不足
+2022-05-19T10:20:20.013+0800	error	model/model.go:26	权限不足
+2022-05-19T10:20:20.018+0800	error	users/user_add.go:196	添加用户失败-添加审批失败
+2022-05-19T10:20:40.587+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T10:20:51.559+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T10:20:53.748+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T10:20:53.752+0800	error	model/model.go:26	权限不足
+2022-05-19T10:20:53.759+0800	error	model/model.go:26	权限不足
+2022-05-19T10:20:53.761+0800	error	users/user_add.go:196	Error 1054: Unknown column 'approval_msg' in 'field list'
+2022-05-19T10:20:53.761+0800	error	users/user_add.go:197	添加用户失败-添加审批失败
+2022-05-19T10:24:34.343+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T10:24:34.350+0800	error	model/model.go:26	权限不足
+2022-05-19T10:24:34.369+0800	error	model/model.go:26	权限不足
+2022-05-19T10:24:34.377+0800	error	users/user_add.go:196	Error 1241: Operand should contain 1 column(s)
+2022-05-19T10:24:34.377+0800	error	users/user_add.go:197	添加用户失败-添加审批失败
+2022-05-19T10:26:54.721+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T10:27:03.038+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T10:27:06.824+0800	info	users/user_add.go:41	用户新增 user: id 54, name fxm-test
+2022-05-19T10:27:06.831+0800	error	model/model.go:26	权限不足
+2022-05-19T10:27:06.843+0800	error	model/model.go:26	权限不足
+2022-05-19T10:27:56.795+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T10:28:03.957+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T10:28:05.602+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T10:28:05.610+0800	error	model/model.go:26	权限不足
+2022-05-19T10:28:05.617+0800	error	model/model.go:26	权限不足
+2022-05-19T10:28:05.617+0800	info	users/user_add.go:187	[123 34 97 99 99 111 117 110 116 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 100 101 112 116 95 105 100 34 58 49 44 34 109 97 110 97 103 101 95 100 101 112 116 95 105 100 34 58 91 93 44 34 112 119 100 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 114 111 108 101 95 105 100 34 58 49 53 44 34 117 115 101 114 95 110 97 109 101 34 58 34 102 120 109 45 116 101 115 116 45 50 34 125]
+2022-05-19T10:28:05.622+0800	error	users/user_add.go:197	Error 1241: Operand should contain 1 column(s)
+2022-05-19T10:28:05.622+0800	error	users/user_add.go:198	添加用户失败-添加审批失败
+2022-05-19T10:46:02.699+0800	error	jwt/jwt.go:173	token 失效
+2022-05-19T11:01:28.414+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T11:01:28.433+0800	error	model/model.go:26	权限不足
+2022-05-19T11:01:28.447+0800	error	model/model.go:26	权限不足
+2022-05-19T11:01:28.447+0800	info	users/user_add.go:187	[123 34 97 99 99 111 117 110 116 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 100 101 112 116 95 105 100 34 58 49 44 34 109 97 110 97 103 101 95 100 101 112 116 95 105 100 34 58 91 93 44 34 112 119 100 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 114 111 108 101 95 105 100 34 58 49 53 44 34 117 115 101 114 95 110 97 109 101 34 58 34 102 120 109 45 116 101 115 116 45 50 34 125]
+2022-05-19T11:01:28.449+0800	error	users/user_add.go:197	Error 1241: Operand should contain 1 column(s)
+2022-05-19T11:01:28.449+0800	error	users/user_add.go:198	添加用户失败-添加审批失败
+2022-05-19T11:04:56.002+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T11:05:04.056+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T11:05:10.042+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T11:05:10.051+0800	error	model/model.go:26	权限不足
+2022-05-19T11:05:10.060+0800	error	model/model.go:26	权限不足
+2022-05-19T11:05:10.060+0800	info	users/user_add.go:187	[123 34 97 99 99 111 117 110 116 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 100 101 112 116 95 105 100 34 58 49 44 34 109 97 110 97 103 101 95 100 101 112 116 95 105 100 34 58 91 93 44 34 112 119 100 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 114 111 108 101 95 105 100 34 58 49 53 44 34 117 115 101 114 95 110 97 109 101 34 58 34 102 120 109 45 116 101 115 116 45 50 34 125]
+2022-05-19T11:05:10.064+0800	error	users/user_add.go:197	Error 1241: Operand should contain 1 column(s)
+2022-05-19T11:05:10.064+0800	error	users/user_add.go:198	添加用户失败-添加审批失败
+2022-05-19T11:13:07.655+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T11:13:15.629+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T11:13:20.125+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T11:13:20.130+0800	error	model/model.go:26	权限不足
+2022-05-19T11:13:20.150+0800	error	model/model.go:26	权限不足
+2022-05-19T11:13:20.150+0800	info	users/user_add.go:196	[123 34 97 99 99 111 117 110 116 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 117 115 101 114 95 110 97 109 101 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 112 119 100 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 100 101 112 116 95 105 100 34 58 49 44 34 114 111 108 101 95 105 100 34 58 49 53 44 34 109 97 110 97 103 101 95 100 101 112 116 95 105 100 34 58 91 93 125]
+2022-05-19T11:13:20.157+0800	error	users/user_add.go:206	Error 1241: Operand should contain 1 column(s)
+2022-05-19T11:13:20.158+0800	error	users/user_add.go:207	添加用户失败-添加审批失败
+2022-05-19T14:06:51.552+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-19T14:06:59.767+0800	info	authentication/cmd.go:61	starting api server
+2022-05-19T14:07:08.489+0800	info	users/user_add.go:42	用户新增 user: id 54, name fxm-test
+2022-05-19T14:07:08.497+0800	error	model/model.go:26	权限不足
+2022-05-19T14:07:08.514+0800	error	model/model.go:26	权限不足
+2022-05-19T14:07:08.514+0800	info	users/user_add.go:196	[123 34 97 99 99 111 117 110 116 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 117 115 101 114 95 110 97 109 101 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 112 119 100 34 58 34 102 120 109 45 116 101 115 116 45 50 34 44 34 100 101 112 116 95 105 100 34 58 49 44 34 114 111 108 101 95 105 100 34 58 49 53 44 34 109 97 110 97 103 101 95 100 101 112 116 95 105 100 34 58 91 93 125]
+2022-05-19T14:08:36.845+0800	info	users/login.go:29	用户登陆 user: name root, password root
+2022-05-19T14:09:07.404+0800	error	jwt/jwt.go:173	token 失效
+2022-05-19T14:09:18.329+0800	info	users/user_query.go:47	用户查询 user: id 1, name root
+2022-05-19T14:09:55.267+0800	info	users/user_update.go:36	用户修改 user: id 54, name fxm-test
+2022-05-19T14:09:55.272+0800	error	model/model.go:26	权限不足
+2022-05-19T14:09:55.280+0800	error	model/model.go:26	权限不足
+2022-05-20T09:36:24.299+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-20T11:27:21.519+0800	info	authentication/cmd.go:61	starting api server
+2022-05-20T15:19:04.214+0800	error	jwt/jwt.go:167	token 错误
+2022-05-20T15:19:16.807+0800	info	users/login.go:29	用户登陆 user: name root, password root
+2022-05-20T15:19:29.540+0800	info	roles/role_query.go:46	角色查询 user: id 1, name root
+2022-05-20T15:24:19.834+0800	info	roles/role_import.go:44	角色导入 user: id 1, name root
+2022-05-20T15:32:13.335+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-20T15:32:24.803+0800	info	authentication/cmd.go:61	starting api server
+2022-05-20T15:36:42.427+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-20T15:36:52.459+0800	info	authentication/cmd.go:61	starting api server
+2022-05-20T15:37:24.634+0800	info	roles/role_import.go:44	角色导入 user: id 1, name root
+2022-05-20T15:41:22.346+0800	info	authentication/cmd.go:111	Server exiting
+2022-05-20T15:41:28.985+0800	info	authentication/cmd.go:61	starting api server
+2022-05-20T15:41:32.593+0800	info	roles/role_import.go:44	角色导入 user: id 1, name root
+2022-05-20T19:18:26.120+0800	info	authentication/cmd.go:111	Server exiting
